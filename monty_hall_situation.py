@@ -1,7 +1,7 @@
 import random
 
 
-def monti_hall_result(car, total_door, show, time):
+def monty_hall_result(car, total_door, show, time):
     correct = 0
     wrong = 0
     if show == 0:

@@ -2,12 +2,12 @@ import os
 import random
 import argparse
 import sys
-sys.path.append("../MontyHallProv/")
-from monti_hall import *
+sys.path.append("./")
+from monty_hall_situation import *
 
 
 def main(cars, doors, show, time):
-    correct, wrong = monti_hall_result(cars, doors, show, time)
+    correct, wrong = monty_hall_result(cars, doors, show, time)
     print("The situation of Monti Hall Equation shows, ")
     print("Probability of first answer being correct : {}".format(correct))
     print("Probability of changing the first answer being correct : {}".format(wrong))
